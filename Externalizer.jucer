@@ -3,7 +3,7 @@
 <JUCERPROJECT id="DxuubX" name="Externalizer" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
               pluginFormats="buildStandalone,buildVST3" pluginCode="EXTR" pluginChannelConfigs="{2,2}"
-              companyName="puschFX">
+              companyName="KelownaSound">
   <MAINGROUP id="yWHDO4" name="Externalizer">
     <GROUP id="{97254B31-7597-9613-16ED-E3A0D0FBF2E5}" name="Source">
       <FILE id="sWQyvh" name="PluginProcessor.cpp" compile="1" resource="0"
