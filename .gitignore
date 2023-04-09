@@ -1,0 +1,6 @@
+# Output files
+context_*
+context.txt
+
+Builds/
+JuceLibraryCode/
