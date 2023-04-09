@@ -42,6 +42,7 @@ Example command:
 
 ```bash
 python gpt_repository_loader.py "../Externalizer" -p "../Externalizer/.preamble" -o "../Externalizer/context.txt" -t 2048 -m 10
+```
 
 ## License
 
