@@ -2,7 +2,8 @@
 
 <JUCERPROJECT id="DxuubX" name="Externalizer" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
-              pluginFormats="buildVST3" pluginCode="EXTR" pluginChannelConfigs="{2,2}">
+              pluginFormats="buildStandalone,buildVST3" pluginCode="EXTR" pluginChannelConfigs="{2,2}"
+              companyName="puschFX">
   <MAINGROUP id="yWHDO4" name="Externalizer">
     <GROUP id="{97254B31-7597-9613-16ED-E3A0D0FBF2E5}" name="Source">
       <FILE id="sWQyvh" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -33,6 +34,7 @@
         <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
         <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
       </MODULEPATHS>
     </VS2022>
   </EXPORTFORMATS>
@@ -43,6 +45,7 @@
     <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
             useGlobalPath="1"/>
     <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
