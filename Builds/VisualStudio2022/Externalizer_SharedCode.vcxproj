@@ -93,6 +93,9 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <OutputFile>$(IntDir)\Externalizer.bsc</OutputFile>
     </Bscmake>
+    <PostBuildEvent>
+      <Command>copy &quot;.\x64\Debug\VST3\Externalizer.vst3&quot; &quot;..\..\Externalizer.vst3&quot;</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
@@ -137,6 +140,9 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <OutputFile>$(IntDir)\Externalizer.bsc</OutputFile>
     </Bscmake>
+    <PostBuildEvent>
+      <Command>copy &quot;.\x64\Debug\VST3\Externalizer.vst3&quot; &quot;..\..\Externalizer.vst3&quot;</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\PluginProcessor.cpp"/>

@@ -99,6 +99,9 @@
     <Lib>
       <AdditionalDependencies>Externalizer.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
+    <PostBuildEvent>
+      <Command>copy &quot;.\x64\Debug\VST3\Externalizer.vst3&quot; &quot;..\..\Externalizer.vst3&quot;</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
@@ -147,6 +150,9 @@
     <Lib>
       <AdditionalDependencies>Externalizer.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
+    <PostBuildEvent>
+      <Command>copy &quot;.\x64\Debug\VST3\Externalizer.vst3&quot; &quot;..\..\Externalizer.vst3&quot;</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\JUCE\modules\juce_audio_plugin_client\Standalone\juce_StandaloneFilterApp.cpp">

@@ -1,7 +1,6 @@
 Externalizer.vst3
 JuceLibraryCode/
-Builds/VisualStudio*/.vs/
-Builds/VisualStudio*/x64/
+Builds/
 context_*
 output_*
 context.txt
