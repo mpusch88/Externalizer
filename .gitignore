@@ -1,5 +1,6 @@
 Externalizer.vst3
 JuceLibraryCode/
+.vscode/
 Builds/
 context_*
 output_*
