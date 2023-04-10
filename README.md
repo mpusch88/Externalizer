@@ -1,6 +1,6 @@
 # Externalizer
 
-Externalizer is a VST3 audio plugin built using the [JUCE framework](https://juce.com/), developed by KelownaSound. This project aims to replicate Ableton Live's External Audio Effect device, enabling audio routing to/from external hardware processors from within digital audio workstations (DAWs) and other audio programs. Key features include latency compensation, dry/wet control, and gain staging. Development involves using Projucer, implementing features, designing a user interface, and testing across platforms and DAWs.
+Externalizer is a VST3 audio plugin built using the [JUCE framework](https://juce.com/). This project aims to replicate Ableton Live's External Audio Effect device, enabling audio routing to/from external hardware processors from within digital audio workstations (DAWs) and other audio programs. Key features include latency compensation, dry/wet control, and gain staging. Development involves using Projucer, implementing features, designing a user interface, and testing across platforms and DAWs.
 
 ## Requirements
 
