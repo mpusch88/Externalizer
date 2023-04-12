@@ -36,7 +36,7 @@ To use the Externalizer plugin, add the built VST3 file to the desired plugin fo
 
 ## Context
 
-This project uses <https://github.com/mpoon/gpt-repository-loader> to maintain up-to-date code context for use with ChatGPT and GPT4.
+This project uses a modified version of https://github.com/mpoon/gpt-repository-loader to maintain up to date code context for use with ChatGPT and GPT4.
 
 Example command:
 
