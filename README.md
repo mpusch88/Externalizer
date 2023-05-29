@@ -1,6 +1,6 @@
 # Externalizer
 
-Externalizer is a VST3 audio plugin built using the [JUCE framework](https://juce.com/). This project aims to enable audio routing to/from external hardware processors from within digital audio workstations (DAWs) and other audio programs. Key features include latency compensation, dry/wet control, and gain staging.
+Externalizer is a VST3 audio plugin built using the [JUCE framework](https://juce.com/). This project aims to enable audio routing to/from external hardware processors from within digital audio workstations (DAWs) and other audio programs. Key features include latency compensation, dry/wet control, and gain staging. (WIP)
 
 ## Requirements
 
